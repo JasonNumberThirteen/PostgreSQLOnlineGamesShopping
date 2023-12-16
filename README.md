@@ -4,6 +4,7 @@
 ## Table of Contents
 * [General information](#general-information)
 * [Used technologies](#used-technologies)
+* [Features](#features)
 * [Model](#model)
 * [Credits](#credits)
 
@@ -15,6 +16,11 @@
 - [draw.io](https://app.diagrams.net/ "Flowchart Maker &amp; Online Diagram Software") software for designing a model of the database
 - [PostgreSQL](https://www.postgresql.org/ "PostgreSQL: The world's most advanced open source database") system for writing & executing queries (version **7.8**)
 - [Notepad++](https://notepad-plus-plus.org/ "Notepad++") text editor for merging queries into single script
+
+## Features
+- 11 tables with exemplary data
+	- 2 tables serve as junction tables for "many-to-many" relations ("**OrdersGames**" and "**GamesGenres**")
+- autoincrementation of primary keys values; you don't need to add ID columns in order to insert new rows
 
 ## Model
 <p align = "center"><img src="model.png?raw=true" alt = "A relational database model of the online games shopping."/></p>
